@@ -1,7 +1,7 @@
 # ps_Util_WinSecureScheduledTaskCreator
 This powershell script creates a "secure" scheduled task by only allowing an executable or script to run if it matches a (pre-calculated) SHA256 hash.
 
-## Process;
+## Process
 
 * This powershell script will 
 ** Ask for the name that will be used for the scheduled task 
