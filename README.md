@@ -15,12 +15,12 @@ This powershell script creates a "secure" scheduled task by only allowing an exe
 * Running the scheduled task will then check that the executable/script to be started still matches the calculated SHA256 hash.  If the executable/script no longer matches the SHA256 hash it will send an email alert. 
 
 ## EXAMPLE
-./WinSecureScheduledTaskCreator.ps1
+.\WinSecureScheduledTaskCreator.ps1
 
 This will run the script. If the config file WinSecureScheduledTaskCreator.json is found in the same folder as the script then it will be used otherwise the script will prompt for the required information
 
 ## EXAMPLE 2
-./WinSecureScheduledTaskCreator.ps1 -fConfigPath 'full path name to WinSecureScheduledTaskCreator.json'
+.\WinSecureScheduledTaskCreator.ps1 -fConfigPath 'full path name to WinSecureScheduledTaskCreator.json'
 
 This will run the script using the config file specified in fConfigPath
 
