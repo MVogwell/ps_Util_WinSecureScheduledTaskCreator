@@ -1,0 +1,10 @@
+[
+	{
+		"PowershellPath":"%SystemRoot%\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
+		"sSMTPServer":"localhost",
+		"sSender":"theSenderAddress@yourdomain.com",
+		"sRecipient":"TheRecipientAddress@yourdomain.com",
+		"sSubject":"Failed to run scheduled task",
+		"sMsgBody":"Failed to run scheduled task - SHA2526 Hash not correct - The file has been altered."
+	}
+]
