@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-This powershell script creates a secure scheduled task by only allowing an executable or script to run if it matches a (pre-calculated) SHA256 hash.
+This powershell script creates a "secure" scheduled task by only allowing an executable or script to run if it matches a (pre-calculated) SHA256 hash.
 
 .DESCRIPTION
 
