@@ -98,7 +98,7 @@ If ($bSettingsFileParsed -eq $True) {
 	Do {
 		$sSchedTaskName = read-host "Enter the name that you will use for the scheduled task"
 	}
-	While($sPath.Length -eq 0)
+	While($sSchedTaskName.Length -eq 0)
 
 	write-host "`nEnter the full path to the executable/script that will be run by the scheduled task" -ForegroundColor Yellow
 	write-host "...(must be accessible but doesn't have to be in the final destination)" -ForegroundColor Yellow
